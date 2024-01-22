@@ -68,4 +68,6 @@ footer {
     color: white;
     display: grid;
     justify-content: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
 }
