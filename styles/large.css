@@ -1,25 +1,17 @@
-@media (min-width: 640px) {
+@media (min-width: 1000px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
 
-nav{
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-nav ul {
-    display: flex;
-}
-nav ul li {
-    flex: 1 1 100%;
-}
-
-div {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    border: gray;
-    column-gap: 50px;
-    padding: 10px;
-    padding-left: 15%;
     
-}
-
 }
