@@ -157,3 +157,28 @@ section {
     display: grid;
     justify-content: center;
 }
+.event {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    transition: 0.3s;
+    width: 500px;
+
+}
+
+.event:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+
+}
+.events {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto;
+    margin-bottom: 250px;
+    background-color: #90A955;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
