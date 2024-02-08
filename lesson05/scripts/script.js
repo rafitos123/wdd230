@@ -1,6 +1,9 @@
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('______');
+const list = document.querySelector('#list');
+const deleteButton = document.querySelector('deleteButton');
+
+
 
 button.addEventListener('click', function() {if (input.vavlue != '') {
     const li = document.createElement('li');
@@ -12,12 +15,15 @@ button.addEventListener('click', function() {if (input.vavlue != '') {
     li.append(deleteButton);
 
     list.append(li);
+
+    deleteButton.addEventListener('click', function(){
+        list.removeChild(li);
+        input.focus();
+    });
+
+    input.focus();
+    input.value = '';
 }});
 
-deleteButton.addEventListener('click', function(){
-    list.removeChild(li);
-    input.focus();
-});
 
-input.focus();
-input.value = '';
+
