@@ -1,3 +1,5 @@
+
+
 @media (min-width: 700px) and (max-width: 999px) {
     .navigation {
         display: flex;
@@ -17,7 +19,6 @@
         display: none;
     }
 
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
     * {
         font-family: 'Roboto';
@@ -66,7 +67,7 @@
         column-gap: 5px;
     }
 
-    .card {
+    .card, .card2, .card3 {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         background-color: #ECF39E;
         transition: 0.3s;
@@ -76,10 +77,9 @@
 
     }
 
-    .card:hover {
+    .card:hover, .card2:hover, .card3:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
-
     .container {
         padding: 2px 16px;
 
@@ -167,5 +167,14 @@
         background-color: #90A955;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .radius {
+        border-radius: 50%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 450px;
     }
 }
