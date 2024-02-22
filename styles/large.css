@@ -13,5 +13,9 @@
 		display: none;
 	}
 
+	iframe {
+		border: 0;
+		width: 100%;
+	}
     
 }

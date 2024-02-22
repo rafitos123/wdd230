@@ -134,3 +134,7 @@ footer {
 	font-family:"Montserrat", sans-serif;
 }
 
+iframe {
+	border: 0;
+	width: 100%;
+}
