@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            margin: 0;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: auto 1fr;
+        }
+
+        header {
+            grid-column: 1/3;
+            background-color: #add790;
+            text-align: center;
+        }
+
+        main {
+            overflow-y: auto;
+            padding: 1em;
+        }
+
+        nav {
+            overflow-y: auto;
+            padding: 1em;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Title</h1>
+    </header>
+    <nav>
+        <p>Navigation</p>
+        <!-- Add more navigation items here -->
+    </nav>
+    <main>
+        <p>Here too there should be a local scrollbar.</p>
+        <!-- Add more content here -->
+    </main>
+</body>
+</html>
