@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rafael Antunes">
+  <meta name="description"
+  content="WDD 230 - Web Frontend Development - Rafael Henrique Antunes - course assignment portal">
+  <meta property="og:title" content="WDD230 - Course Home">
+  <meta property="og:description" content="A activity from BYU - IDAHO Software Development course">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="icon" href="favicon.ico">
+  <meta property="og:url" content="https://rafitos123.github.io/wdd230/">
+  <meta property="og:image" content="https://th.bing.com/th/id/OIP.PaqNqJfaMBJLtQety6w0AwHaE8?rs=1&pid=ImgDetMain" />
+  <title>Rafael Antunes - WDD 230 - Web Frontend Development</title>
+</head>
+
+<body>
+  <header>
+    <img src="images/me.webp" alt="auto">
+    <h1>Rafael Henrique Antunes</h1>
+  </header>
+  <a id="menu" href="#"></a>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href=" lesson03/chamber-site-plan.html">Site Plan</a></li>
+      <li><a href="chamber/index.html">Chamber</a></li>
+      <li><a href="https://www.byui.edu/">BYU-IDAHO</a></li>
+      <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/17?lang=eng&id=p6-p7#p6">Scripture</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+
+    
+    <div class="form">
+      <h2 class="rate">Rate Us!</h2><br>
+      <form action="record.html" >
+        <label class="before">First name:</label><br>
+        <input type="text" id="uname" placeholder="Username" name="uname" required><br>
+        <label class="before">Password:</label><br>
+        <input type="password" id="pword" placeholder="Password" name="pword" pattern="[a-zA-Z0-9]{8}" title="Must have 8 characters between letters and numbers." required><br>
+        <label class="before">Confirm Password:</label><br>
+        <input type="password" id="pword2" placeholder="Password" name="pword2" pattern="[a-zA-Z0-9]{8}" title="passwords don't match" required><br>
+        <label class="before">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your byui email address"
+          title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required><br>
+        <label for="r" class="before">What is your rating for us?</label>
+        <div id="rangevalue">0</div>
+        <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+        <datalist id="rangevalues">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </datalist><br><br>
+        <button type="submit" class="after" href="record.html">Send</button>
+
+      </form>
+    </div>
+
+
+
+  </main>
+
+  <footer>
+    <p>©2024 - Rafael Antunes - Brazil - </p>
+    <p>Last Modified:</p>
+    <p id="last"></p>
+  </footer>
+  <script src="scripts/getdates.js"></script>
+  <script src="scripts/form.js"></script>
+</body>
+
+</html>
