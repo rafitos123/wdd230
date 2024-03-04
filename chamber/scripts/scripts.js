@@ -1,6 +1,9 @@
 let text = document.lastModified;
 document.getElementById("last").innerHTML = text;
 
+const timeElapsed = Date.now();
+document.getElementById("date").innerHTML = text;
+
 
 //navBar
 const mainnav = document.querySelector('.navigation')
