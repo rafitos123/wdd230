@@ -1,15 +1,14 @@
-const baseURL = "https://rafitos123.github.io/wdd230/";
-const linksURL = "https://rafitos123.github.io/wdd230/data/links.json";
-const lists = document.querySelector('#links');
+const linksURL = "https://rafitos123.github.io/wdd230/chamber/data/members.json";
+const cards = document.querySelector('#directory');
 //get results
-async function getLinks() {
+async function getMembers() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.table(data.lessons);
+    console.table(data.companies);
     displayLinks(data);
 
-    const displayLinks = (lessons) => {
-        lessons.forEach(link => {
+    const displayLinks = (companies) => {
+        companies.forEach(companie => {
             const list = document.createElement("ul");
             const url = document.createElement("li");
             const Thelink = document.createElement("li");
