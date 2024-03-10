@@ -1,0 +1,63 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "index.html",
+                    "title": "Course home"
+                }
+            
+            ]
+
+          
+        },   
+
+        {
+            "lesson":"02",
+            "links":[
+                {
+                    "url":"lesson02/design-wdd20.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"lesson02/design-principles.html",
+                    "title":"Design principles"
+                }
+            ]
+        },
+
+        {
+            "lesson":"03",
+            "links":[
+                {
+                    "url":"lesson03/chamber-site-plan.html",
+                    "title":"Chamber Site Plan"
+                }
+                
+            ]
+        },
+
+        {
+            "lesson":"05",
+            "links":[
+                {
+                    "url":"lesson05/bom.html",
+                    "title":"Book of Mormon List"
+                }
+                
+            ]
+        },
+
+        {
+            "lesson":"09",
+            "links":[
+                {
+                    "url":"lesson09/prophets.html",
+                    "title":"Prophets Json"
+                }
+                
+            ]
+        }
+    ]
+}
