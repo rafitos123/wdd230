@@ -66,8 +66,11 @@
             </section>
             <section class="card">
                 <h3>Information </h3>
-                <p><b>Mogi Mirim, SP - Brazil</b></p>
-                <p>☀️30°C - Sunshine</p>
+                <div id="weather">
+                    <h1 id="temp"></h1>
+                    <div id="location"></div>
+                    <div id="description"></div>
+                </div>
                 <p><span class="label"> <b>Number of Visits: </b></span><span class="visits"></span></p>
             </section>
         </div>
@@ -78,6 +81,7 @@
         <p>Last Modified:</p>
         <p id="last"></p>
     </footer>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/links.js"></script>
 </body>
