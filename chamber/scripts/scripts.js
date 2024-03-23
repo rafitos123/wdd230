@@ -14,6 +14,7 @@ hambutton.addEventListener('click', () => {
 	hambutton.classList.toggle('show');
 });
 
+//darkmode
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 const events = document.querySelector(".events");
