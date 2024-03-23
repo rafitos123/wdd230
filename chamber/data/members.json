@@ -6,8 +6,8 @@
             "Phone": "(41) 89545455",
             "Url":"www.icegurt.com",
             "image":"https://static.vecteezy.com/system/resources/previews/000/653/544/original/ice-cream-icon-vector.jpg",
-            "Membership":"bronze",
-            "rate":"7"
+            "Membership":"Level: bronze",
+            "rate":"⭐ 7"
         },
        
         {
@@ -16,8 +16,8 @@
             "Phone": "(41) 55488555",
             "Url":"www.carspeed.com",
             "image":"https://th.bing.com/th/id/R.56924e03f0352cfcf71a6fdd0974fe34?rik=IVBoQBKsuDEhBQ&pid=ImgRaw&r=0",
-            "Membership":"gold",
-            "rate":"8.5"
+            "Membership":"Level: gold",
+            "rate":"⭐ 8.5"
         },
 
         {
@@ -26,8 +26,8 @@
             "Phone": "(41) 65918555",
             "Url":"www.staysafe.com",
             "image":"https://thumbs.dreamstime.com/b/shield-modern-house-icon-over-blue-background-colorful-line-design-vector-illustration-shield-house-design-120519405.jpg",
-            "Membership":"gold",
-            "rate":"8"
+            "Membership":"Level: gold",
+            "rate":"⭐ 8"
         },
 
         {
@@ -36,8 +36,8 @@
             "Phone": "(41) 59954435",
             "Url":"www.hearyou.com",
             "image":"https://th.bing.com/th/id/OIP.UbAFFn5rVyFODK52oUSOVQAAAA?w=257&h=256&rs=1&pid=ImgDetMain",
-            "Membership":"silver",
-            "rate":"8.2"
+            "Membership":"Level: silver",
+            "rate":"⭐ 8.2"
         },
 
         {
@@ -46,8 +46,8 @@
             "Phone": "(41) 12322435",
             "Url":"www.monkeycloth.com",
             "image":"https://th.bing.com/th/id/R.74f59ddb505f9040140a7dc9886f1ab2?rik=387XCeLLDbezoA&pid=ImgRaw&r=0",
-            "Membership":"silver",
-            "rate":"7.5"
+            "Membership":"Level: silver",
+            "rate":"⭐ 7.5"
         },
        
         {
@@ -56,8 +56,8 @@
             "Phone": "(41) 92929924",
             "Url":"www.armynation.com",
             "image":"https://th.bing.com/th/id/OIP.5uo-77IcyVHQzBtcqbbdNQHaHa?rs=1&pid=ImgDetMain",
-            "Membership":"bronze",
-            "rate":"9"
+            "Membership":"Level: bronze",
+            "rate":"⭐ 9"
         },
 
         {
@@ -66,8 +66,8 @@
             "Phone": "(41) 92929924",
             "Url":"www.armynation.com",
             "image":"https://image.freepik.com/vetores-gratis/design-de-smartphone_24911-39988.jpg",
-            "Membership":"gold",
-            "rate":"10"
+            "Membership":"Level: gold",
+            "rate":"⭐ 10"
         }
     ]
 }
