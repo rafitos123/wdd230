@@ -15,14 +15,22 @@ async function getWeatherData() {
         document.getElementById("temp").textContent = `${Math.round(data.main.temp - 273.15)}°C`;
 
 
+        const weatherDiv = document.getElementById('three');
+        for (let i = 0; i < 3; i++) {
+            const date = new Date(data.list[i].dt * 1000).toLocaleDateString();
+            const temp = data.list[i].main.temp;
+            const description = data.list[i].weather[0].description;
+
+            const forecast = `<p>${date}: ${temp}°C, ${description}</p>`;
+            weatherDiv.innerHTML += forecast;
+        }
+
 
         document.getElementById("weather").innerHTML = weatherData;
     } catch (error) {
         console.error("Error with catching weather data:", error);
     }
 }
-
-
 
 getWeatherData();
 

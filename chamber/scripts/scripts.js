@@ -1,8 +1,7 @@
 let text = document.lastModified;
 document.getElementById("last").innerHTML = text;
 
-const timeElapsed = Date.now();
-document.getElementById("date").innerHTML = text;
+
 
 
 //navBar
@@ -57,6 +56,8 @@ modeButton.addEventListener("click", () => {
 		nav.style.color = "#fff";
 		footer.style.background = "#171718";
 		footer.style.color = "#fff";
+		
+
 		modeButton.textContent = "🔆 Dark mode on";
 
 	} else {
@@ -84,6 +85,7 @@ modeButton.addEventListener("click", () => {
 		nav.style.color = "#fff";
 		footer.style.background = "#31572c";
 		footer.style.color = "#fff";
+		
 		modeButton.textContent = "🕶️ Dark mode off";
 
 	}

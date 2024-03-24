@@ -38,22 +38,28 @@
     <nav>
       <ul class="navigation">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Contact</a></li>
         <li><a href="discover.html">Discovery</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="directory.html">Directory</a></li>
       </ul>
     </nav>
-
+    <div class="alert" id="Myalert">
+      <span class="closebtn" id="close" onclick="this.parentElement.style.display='none';">&times;</span> 
+      <strong>Hey!</strong> Let Attend a chamber of commerce meet and greet on Wednesday at 7:00 pm
+    </div>
     <div>
       <picture>
-        <source srcset="images/wdd230-org.webp" media="(max-width: 400px)">
-        <source srcset="images/wdd230-org.webp" media="(max-width: 960px)">
-        <img src="images/wdd230-org.jpg" alt="wdd230 image sugestion" style="width:100%">
+        <source srcset="images/curitiba.webp" media="(max-width: 400px)">
+        <source srcset="images/curitiba.webp" media="(max-width: 960px)">
+        <img src="images/curitiba.jpg" alt="wdd230 image sugestion" style="width:100%">
       </picture>
     </div>
     
-    <section> <button class="button"> Join to the Curitiba Chamber</button></section>
+    <section> 
+        <a href="join.html">
+          <button class="button">Join to the Curitiba Chamber</button>
+      </a>
+    </section>
     
     <section class="events">
       <div class="event">
@@ -65,10 +71,7 @@
             <li>Pinhão's Place - At 5PM until 2AM - Monday to Saturday</li>
             <li>Iguaçu Shopping - At 8AM until 1PM - Every day</li>
           </ul>
-          <div class="alert" id="Myalert">
-            <span class="closebtn" id="close" onclick="this.parentElement.style.display='none';">&times;</span> 
-            <strong>Hey!</strong> Let Attend a chamber of commerce meet and greet on Wednesday at 7:00 pm
-          </div>
+          
         </div>
       </div>
       <div id="weather_wrapper">
@@ -85,6 +88,9 @@
 
             </div>
           </div>
+        </div>
+        <div id="three">
+
         </div>
       </div>
       

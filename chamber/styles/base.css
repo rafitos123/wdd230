@@ -216,6 +216,7 @@ iframe {
     display: none;
     background-color: #31572C;
     color: white;
+    position: fixed;
 }
 
 .closebtn {
@@ -239,3 +240,4 @@ iframe {
     justify-content: center;
     
 }
+
