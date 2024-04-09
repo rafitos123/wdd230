@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="image-section">
+            <!-- Metade com imagem -->
+            <img src="images/scooterHome.jpg" alt="Imagem de fundo">
+        </div>
+        <div class="content-section">
+            <!-- Metade com background de cor sólida -->
+            <h1>Welcome to the Scooter Tourism</h1>
+            <p>Explore new ways to drive</p>
+            <button>Reserve Now!</button>
+        </div>
+    </div>
+    <main>
+        <section class="parallax">
+            <div class="parallax-content">
+                <h1>"With the best prices on the island!"</h1>
+                <p>- Mexico Tourism</p>
+            </div>
+        </section>
+        <section class="content">
+            <h2>What do we have available?</h2>
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/metropolitan.png" alt="Imagem" loading="lazy">
+                    <h3>Honda Motor Scooters</h3>
+                    <p>Options available for 1 to 2 persons</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/side.png" alt="Imagem" style="width: 500px;" loading="lazy">
+                    <h3>Side-by-Side ATVs</h3>
+                    <p>Options available for 1 to 4 persons</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/jeep.png" alt="Imagem" style="width: 500px;" loading="lazy">
+                    <h3>Jeeps</h3>
+                    <p>Options available: 4 door manuel with A/C - 5 person</p>
+                    <p>And 2 door - open air - manuel - 4 person</p>
+                </div>
+            </div>
+        </section>
+        
+            <div id="weather-widget" class="weather">
+                <h2>Stay Tuned!</h2>
+                <div id="current-weather">
+                    <h3>Current forecast</h3>
+                    <p id="current-temp"></p>
+                    <img id="current-icon" alt="Condições Atuais">
+                </div>
+                <div id="forecast">
+                    <h3>Forecast for the next few days at 3PM</h3>
+                    <div id="forecast-list"></div>
+                </div>
+            </div>
+       
+    </main>
+    <footer>
+        <ul>
+            <p><b>Follow Us</b></p>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i>Instagram</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i>Twitter</a></li>
+        </ul>
+   
+          <ul>
+            <p><b>Find Us</b></p>
+            <li><i class="fas fa-map-marker-alt"></i> Adress: Avenida Xel Ha 1200, 77600 Cozumel, Quintana Roo</li>
+            <li><i class="fas fa-phone"></i> Phone: +52 (987) 8546-8568</li>
+            <li><i class="fas fa-envelope"></i> Email: scooter@tourism.com</li>
+        </ul>
+       <p>©2024 - Rafael Antunes - Brazil - WDD230 FINAL PROJECT</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
