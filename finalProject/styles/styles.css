@@ -6,6 +6,7 @@ html {
     font-family: Arial, sans-serif;
 }
 
+
 /* Landing page */
 .container {
     display: flex;
@@ -200,6 +201,30 @@ footer ul li i {
 .weather {
     background-color: #00A896;
     color: black;
-    display: grid;
-    grid-template-columns: auto auto auto;
 }
+
+.form {
+    margin: 100px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 1000px;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], [type=email], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }

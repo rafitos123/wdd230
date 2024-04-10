@@ -1,0 +1,68 @@
+{
+    "rentals": [
+        {
+            "rental":"Honda Metro Scooter",
+            "person": "1",
+            "halfRservenation": "$20",
+            "fullReservation":"$30",
+            "halfWalkin": "$25",
+            "fullWalkin":"$35",
+            "image":"https://th.bing.com/th/id/OIP.lTY_15xx0vCQyeuInbv4KQHaFn?rs=1&pid=ImgDetMain"
+        },
+
+        {
+            "rental":"Honda Dio Scooter",
+            "person": "2",
+            "halfRservenation": "$30",
+            "fullReservation":"$40",
+            "halfWalkin": "$35",
+            "fullWalkin":"$45",
+            "image":"https://images.hindustantimes.com/auto/img/2022/08/03/original/Honda_Dio_Sports_1659512883101.jpg"
+        },
+
+        {
+            "rental":"Honda PCX150 Scooter",
+            "person": "2",
+            "halfRservenation": "$40",
+            "fullReservation":"$50",
+            "halfWalkin": "$45",
+            "fullWalkin":"$55",
+            "image":"https://th.bing.com/th/id/OIP.eDOZtjd47muIGRFG4oVT7gHaFj?rs=1&pid=ImgDetMain"
+        },
+       
+        {
+            "rental":"Honda Pioneer ATV",
+            "person": "4",
+            "halfRservenation": "$50",
+            "fullReservation":"$70",
+            "halfWalkin": "$60",
+            "fullWalkin":"$80",
+            "image":"https://th.bing.com/th/id/OIP.4zIdqTEYg7o7D01PF8BpQQHaF5?rs=1&pid=ImgDetMain"
+        },
+
+        {
+            "rental":"Jeep Wrangler - 4 door with a/c",
+            "person": "5",
+            "halfRservenation": "$70",
+            "fullReservation":"$100",
+            "halfWalkin": "$85",
+            "fullWalkin":"$125",
+            "image":"https://th.bing.com/th/id/OIP.-TsyHhF9FxT-RAJdcIn9-QHaFj?rs=1&pid=ImgDetMain"
+        },
+       
+        {
+            "rental":"Jeep Wrangler - 2 door",
+            "person": "4",
+            "halfRservenation": "$60",
+            "fullReservation":"$85",
+            "halfWalkin": "$70",
+            "fullWalkin":"$90",
+            "image":"https://images.hgmsites.net/lrg/2016-jeep-wrangler-4wd-2-door-rubicon-side-exterior-view_100536430_l.jpg"
+        }
+       
+       
+  
+
+       
+    ]
+}
