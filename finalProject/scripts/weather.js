@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
             weatherInfo.textContent = message;
     
             const weatherMessage = document.getElementById('mensagem-tempo');
-            weatherMessage.style.display = 'block'; // Exibe a mensagem do tempo
+            weatherMessage.style.display = 'block'; 
     
             const btnFechar = document.getElementById('btn-fechar');
             btnFechar.addEventListener('click', function() {
-                weatherMessage.style.display = 'none'; // Oculta a mensagem do tempo quando o botão de fechar é clicado
+                weatherMessage.style.display = 'none';
             });
         }
 

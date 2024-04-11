@@ -103,15 +103,10 @@
     /* Parallax */
     .parallax {
         height: 100vh;
-        /* Define a altura da seção */
         background-image: url('https://th.bing.com/th/id/R.885d05504fde6dcebcd1a4746cfb3b73?rik=lCDBbsigbto9og&riu=http%3a%2f%2fwww.cozumelparks.com%2fwp-content%2fuploads%2f2017%2f12%2f1-min.jpg&ehk=mF0gH47CpDCr4aJwMkwALCpSFYUK36Kz8hcEQ%2fObm0Y%3d&risl=&pid=ImgRaw&r=0');
-        /* Adiciona uma imagem de fundo */
         background-size: cover;
-        /* Garante que a imagem de fundo cubra todo o elemento */
         background-attachment: fixed;
-        /* Mantém a imagem de fundo fixa enquanto a página rola */
         background-position: center;
-        /* Centraliza a imagem de fundo */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -152,7 +147,6 @@
     
     .card:hover {
         transform: scale(1.05);
-        /* Aumenta o tamanho do card ao passar o mouse */
     }
     
     .card-image {
