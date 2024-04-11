@@ -230,7 +230,7 @@ form {
 
 
 
-input[type=text], [type=email], select, textarea {
+input[type=text], [type=email],[type=tel],[type=date], select, textarea {
     width: 500px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -265,7 +265,16 @@ input[type=text], [type=email], select, textarea {
 }
 
 .rentals {
-    display: grid;
-    grid-template-columns: auto auto auto;
     justify-content: center;
+}
+
+.map {
+    background-color: #028090;
+    text-align: center;
+    padding: 30px;
+  }
+
+iframe {
+    width: auto;
+
 }

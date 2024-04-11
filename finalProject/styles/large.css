@@ -210,85 +210,101 @@
         grid-template-rows: repeat(5, auto);
         grid-template-columns: 240px repeat(3, 1fr);
     }
-}
 
-
-
-.item1 {
-    display: grid;
-    grid-column: 1/5;
-}
-
-.weather1 {
-   grid-column: 2/4;
-}
-
-.weather2 {
-    grid-row: 2/-1;
-    grid-column: 4/4;
+    .item1 {
+        display: grid;
+        grid-column: 1/5;
+    }
     
- }
-
-.form {
-    margin: 100px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 1000px;
-    transition: transform 0.3s;
+    .weather1 {
+       grid-column: 2/4;
+    }
     
+    .weather2 {
+        grid-row: 2/-1;
+        grid-column: 4/4;
+        
+     }
+    
+    .form {
+        margin: 100px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 1000px;
+        transition: transform 0.3s;
+        
+    }
+    
+    .form h1 {
+        text-align: center;
+    }
+    
+    .form:hover {
+        transform: scale(1.05);
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input[type=text], [type=email], [type=tel],[type=date], select, textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+    
+      .map {
+        background-color: #028090;
+        text-align: center;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+      }
+      iframe {
+        width: 500px;
+        width: 500px;
+    }
+
+      
+    
+      .alert {
+        margin-top: 100px;
+        padding: 20px;
+        display: none;
+        background-color: #02C39A;
+        color: black;
+        position: fixed;
+    }
+    
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .closebtn:hover {
+        color: black;
+    }
+    
+    .rentals {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
 }
 
-.form h1 {
-    text-align: center;
-}
 
-.form:hover {
-    transform: scale(1.05);
-}
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input[type=text], [type=email], select, textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  .map {
-    background-color: #028090;
-    text-align: center;
-    padding: 30px;
-  }
-
-  .alert {
-    margin-top: 100px;
-    padding: 20px;
-    display: none;
-    background-color: #02C39A;
-    color: black;
-    position: fixed;
-}
-
-.closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.closebtn:hover {
-    color: black;
-}
