@@ -1,6 +1,6 @@
 body,
 html {
-    margin: 0;
+    margin: auto;
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
@@ -241,9 +241,10 @@ input[type=text], [type=email], select, textarea {
   }
 
   .alert {
+    margin-top: 100px;
     padding: 20px;
     display: none;
-    background-color: #31572C;
-    color: white;
+    background-color: #02C39A;
+    color: black;
     position: fixed;
 }

@@ -268,3 +268,12 @@ input[type=text], [type=email], select, textarea {
     text-align: center;
     padding: 30px;
   }
+
+  .alert {
+    margin-top: 100px;
+    padding: 20px;
+    display: none;
+    background-color: #02C39A;
+    color: black;
+    position: fixed;
+}
