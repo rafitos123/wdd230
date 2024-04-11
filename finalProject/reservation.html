@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Rental</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+          <section>
+            <div class="container">
+                <div class="content-section">
+                    <div class="form">
+                        <h1>Reservations</h1>
+                        <form>
+                            <label for="nome">Name:</label>
+                            <input type="text" id="nome" name="nome" required><br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br>
+                            <label for="phone_number">Phone Number:</label><br>
+                            <input type="tel" id="phone_number" name="phone_number" required><br><br>
+                            <label for="nome">Date:</label>
+                            <input id="date" type="date" /><br>
+                            <select name="options" id="options">
+                                <option value="choose">Rental Type</option>
+                                <option value="Metro">Honda Metro Scooter</option>
+                                <option value="Dio">Honda Dio Scooter</option>
+                                <option value="pcx">Honda PCX150 Scooter</option>
+                                <option value="Honda Pioneer ATV">Jeep Wrangler - 4 door with a/c</option>
+                                 <option value="Honda Pioneer ATV">Jeep Wrangler - 2 door</option>
+                              </select><br>
+                            <select name="options" id="options">
+                                <option value="choose">Choose</option>
+                                <option value="Reservation">Reservation</option>
+                                <option value="Walkin">Walk-in</option>
+                              </select><br>
+                            <label for="half">Half Day(3 hrs):</label>
+                            <input type="radio" id="half" name="halfday" required><br>
+                            <label for="full">Full Day:</label>
+                            <input type="radio" id="full" name="fullday" required>
+                            <label for="email">Home State or Country:</label>
+                            <input type="text" id="home" name="home" required><br>
+                            <label for="mensagem">Special accommodations/comments:</label>
+                            <textarea id="mensagem" name="mensagem" required></textarea><br>
+                
+                            <button type="submit">Send us!</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </section>
+                   
+               
+
+    </main>
+    <footer>
+        <ul>
+            <p><b>Follow Us</b></p>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i>Instagram</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i>Twitter</a></li>
+        </ul>
+   
+          <ul>
+            <p><b>Find Us</b></p>
+            <li><i class="fas fa-map-marker-alt"></i> Adress: Avenida Xel Ha 1200, 77600 Cozumel, Quintana Roo</li>
+            <li><i class="fas fa-phone"></i> Phone: +52 (987) 8546-8568</li>
+            <li><i class="fas fa-envelope"></i> Email: scooter@tourism.com</li>
+        </ul>
+       <p>©2024 - Rafael Antunes - Brazil - WDD230 FINAL PROJECT</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

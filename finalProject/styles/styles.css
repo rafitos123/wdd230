@@ -35,6 +35,18 @@ html {
     padding: 20px;
 }
 
+.content-reservation {
+    flex: 1;
+    background-image: url("https://www.tripsavvy.com/thmb/_rmbKQV7ZCnfuJHVebxA_MZLgQw=/2120x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-912489748-f36234f1220541c59239e9c6eb2dd3ca.jpg");
+    /* background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+}
+
 h1 {
     font-size: 2em;
     margin-bottom: 10px;
@@ -104,13 +116,9 @@ button:hover {
     height: 100vh;
     /* Define a altura da seção */
     background-image: url('https://th.bing.com/th/id/R.885d05504fde6dcebcd1a4746cfb3b73?rik=lCDBbsigbto9og&riu=http%3a%2f%2fwww.cozumelparks.com%2fwp-content%2fuploads%2f2017%2f12%2f1-min.jpg&ehk=mF0gH47CpDCr4aJwMkwALCpSFYUK36Kz8hcEQ%2fObm0Y%3d&risl=&pid=ImgRaw&r=0');
-    /* Adiciona uma imagem de fundo */
     background-size: cover;
-    /* Garante que a imagem de fundo cubra todo o elemento */
     background-attachment: fixed;
-    /* Mantém a imagem de fundo fixa enquanto a página rola */
     background-position: center;
-    /* Centraliza a imagem de fundo */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,6 +226,8 @@ form {
     display: flex;
     flex-direction: column;
 }
+
+
 
 input[type=text], [type=email], select, textarea {
     width: 100%;

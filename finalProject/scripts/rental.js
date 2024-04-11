@@ -1,7 +1,7 @@
 const linksURL = "https://rafitos123.github.io/wdd230/finalProject/data/data.json";
 const cards = document.querySelector('#rental');
 //get results
-async function getMembers() {
+async function getRentals() {
     const response = await fetch(linksURL);
     const data = await response.json();
     console.table(data.rentals);
@@ -12,7 +12,7 @@ async function getMembers() {
     const displayLinks = (rentals) => {
         rentals.forEach(rental => {
             const list = document.createElement("ul");
-            const name = document.createElement("li");
+            const name = document.createElement("h3");
             const person = document.createElement("p");
             const halfRservenation = document.createElement("p");
             const fullReservation = document.createElement("p");
@@ -26,12 +26,12 @@ async function getMembers() {
             image.setAttribute('width', '100');
             image.setAttribute('height', '100');
 
-            name.textContent = rentals.name;
-            person.textContent = rentals.name;
-            halfRservenation.textContent = rentals.name;
-            fullReservation.textContent = rentals.name;
-            halfWalkin.textContent = rentals.name;
-            fullWalkin.textContent = rentals.name;
+            name.textContent = rental.name;
+            person.textContent = rental.name;
+            halfRservenation.textContent = rental.name;
+            fullReservation.textContent = rental.name;
+            halfWalkin.textContent = rental.name;
+            fullWalkin.textContent = rental.name;
            
 
             list.appendChild(image);
@@ -49,4 +49,4 @@ async function getMembers() {
     }
 
 
-getMembers()
+getRentals()
