@@ -1,4 +1,4 @@
-const linksURL = "https://rafitos123.github.io/wdd230/finalProject/data/data.json";
+const linksURL = "https://rafitos123.github.io/wdd230/finalProject/data/rental.json";
 const cards = document.querySelector('#rental');
 //get results
 async function getRentals() {
