@@ -33,6 +33,7 @@ html {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 100%;
 }
 
 .content-reservation {
@@ -217,7 +218,7 @@ footer ul li i {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 1000px;
+    width: 100%;
     
 }
 
@@ -230,7 +231,7 @@ form {
 
 
 input[type=text], [type=email], select, textarea {
-    width: 100%;
+    width: 500px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -238,3 +239,11 @@ input[type=text], [type=email], select, textarea {
     border-radius: 4px;
     box-sizing: border-box;
   }
+
+  .alert {
+    padding: 20px;
+    display: none;
+    background-color: #31572C;
+    color: white;
+    position: fixed;
+}

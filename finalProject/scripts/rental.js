@@ -20,18 +20,18 @@ async function getRentals() {
             const fullWalkin = document.createElement("p");
             const image = document.createElement('img');
 
-            image.setAttribute('src', rentals.image);
-            image.setAttribute('alt', `The ${rentals.name}`); 
+            image.setAttribute('src', rental.image);
+            image.setAttribute('alt', `The ${rental.name}`); 
             image.setAttribute('loading', 'lazy');
-            image.setAttribute('width', '100');
-            image.setAttribute('height', '100');
+            image.setAttribute('width', '200');
+            image.setAttribute('height', '200');
 
             name.textContent = rental.name;
-            person.textContent = rental.name;
-            halfRservenation.textContent = rental.name;
-            fullReservation.textContent = rental.name;
-            halfWalkin.textContent = rental.name;
-            fullWalkin.textContent = rental.name;
+            person.textContent = rental.person;
+            halfRservenation.textContent = rental.halfRservenation;
+            fullReservation.textContent = rental.fullReservation;
+            halfWalkin.textContent = rental.halfWalkin;
+            fullWalkin.textContent = rental.fullWalkin;
            
 
             list.appendChild(image);

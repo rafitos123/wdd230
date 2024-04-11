@@ -1,16 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Key API OpenWeatherMap
     const apiKey = '29dbdb5b52394d31fb0823709d986fb3';
     const lat = '20.50707272284345';
     const lon = '-86.94899772419937';
 
-    // URL da API para a previsão do tempo atual
     const currentWeatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
-    // URL da API para a previsão do tempo nos próximos dias
-    const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
-
-    // Função para buscar a temperatura atual
     fetch(currentWeatherURL)
         .then(response => response.json())
         .then(data => {
@@ -18,9 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
             const currentIcon = data.weather[0].icon;
             document.getElementById('current-temp').textContent = `${currentTemp}°C`;
             document.getElementById('current-icon').src = `http://openweathermap.org/img/wn/${currentIcon}.png`;
+            
+            const tempMax = data.main.temp_max; // Obtém a temperatura máxima do dia
+            document.getElementById('temp-max').textContent = `Temp. Máxima: ${tempMax}°C`; // Exibe a temperatura máxima no HTML
         });
 
-    // Função para buscar a previsão para as 15:00 nos próximos dias
+    const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+
     fetch(forecastURL)
         .then(response => response.json())
         .then(data => {

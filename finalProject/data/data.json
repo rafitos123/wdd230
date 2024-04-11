@@ -2,61 +2,61 @@
     "rentals": [
         {
             "rental":"Honda Metro Scooter",
-            "person": "1",
-            "halfRservenation": "$20",
-            "fullReservation":"$30",
-            "halfWalkin": "$25",
-            "fullWalkin":"$35",
+            "person": "Seats: 1",
+            "halfRservenation": "Half Reservation (3hrs): $20",
+            "fullReservation":"Full Reservation: $30",
+            "halfWalkin": "Half Walk-in (3hrs): $25",
+            "fullWalkin":"Full Walk-in: $35",
             "image":"https://th.bing.com/th/id/OIP.lTY_15xx0vCQyeuInbv4KQHaFn?rs=1&pid=ImgDetMain"
         },
 
         {
             "rental":"Honda Dio Scooter",
-            "person": "2",
-            "halfRservenation": "$30",
-            "fullReservation":"$40",
-            "halfWalkin": "$35",
-            "fullWalkin":"$45",
+            "person": "Seats: 2",
+            "halfRservenation": "Half Reservation (3hrs): $30",
+            "fullReservation":"Full Reservation: $40",
+            "halfWalkin": "Half Walk-in (3hrs): $35",
+            "fullWalkin":"Full Walk-in:  $45",
             "image":"https://images.hindustantimes.com/auto/img/2022/08/03/original/Honda_Dio_Sports_1659512883101.jpg"
         },
 
         {
             "rental":"Honda PCX150 Scooter",
-            "person": "2",
-            "halfRservenation": "$40",
-            "fullReservation":"$50",
-            "halfWalkin": "$45",
-            "fullWalkin":"$55",
+            "person": "Seats: 2",
+            "halfRservenation": "Half Reservation (3hrs): $40",
+            "fullReservation":"Full Reservation: $50",
+            "halfWalkin": "Half Walk-in (3hrs): $45",
+            "fullWalkin":"Full Walk-in:  $55",
             "image":"https://th.bing.com/th/id/OIP.eDOZtjd47muIGRFG4oVT7gHaFj?rs=1&pid=ImgDetMain"
         },
        
         {
             "rental":"Honda Pioneer ATV",
-            "person": "4",
-            "halfRservenation": "$50",
-            "fullReservation":"$70",
-            "halfWalkin": "$60",
-            "fullWalkin":"$80",
+            "person": "Seats: 4",
+            "halfRservenation": "Half Reservation (3hrs): $50",
+            "fullReservation":"Full Reservation: $70",
+            "halfWalkin": "Half Walk-in (3hrs): $60",
+            "fullWalkin":"Full Walk-in: $80",
             "image":"https://th.bing.com/th/id/OIP.4zIdqTEYg7o7D01PF8BpQQHaF5?rs=1&pid=ImgDetMain"
         },
 
         {
             "rental":"Jeep Wrangler - 4 door with a/c",
-            "person": "5",
-            "halfRservenation": "$70",
-            "fullReservation":"$100",
-            "halfWalkin": "$85",
-            "fullWalkin":"$125",
+            "person": "Seats: 5",
+            "halfRservenation": "Half Reservation (3hrs): $70",
+            "fullReservation":"Full Reservation: $100",
+            "halfWalkin": "Half Walk-in (3hrs): $85",
+            "fullWalkin":"Full Walk-in:  $125",
             "image":"https://th.bing.com/th/id/OIP.-TsyHhF9FxT-RAJdcIn9-QHaFj?rs=1&pid=ImgDetMain"
         },
        
         {
             "rental":"Jeep Wrangler - 2 door",
-            "person": "4",
-            "halfRservenation": "$60",
-            "fullReservation":"$85",
-            "halfWalkin": "$70",
-            "fullWalkin":"$90",
+            "person": "Seats: 4",
+            "halfRservenation": "Half Reservation (3hrs): $60",
+            "fullReservation":"Full Reservation: $85",
+            "halfWalkin": "Half Walk-in (3hrs): $70",
+            "fullWalkin":"Full Walk-in:  $90",
             "image":"https://images.hgmsites.net/lrg/2016-jeep-wrangler-4wd-2-door-rubicon-side-exterior-view_100536430_l.jpg"
         }
        
